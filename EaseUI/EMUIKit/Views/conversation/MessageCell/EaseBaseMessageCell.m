@@ -301,10 +301,10 @@
 
 - (void)setMessageNameFont:(UIFont *)messageNameFont
 {
-    _messageNameFont = messageNameFont;
-    if (_nameLabel) {
-        _nameLabel.font = _messageNameFont;
-    }
+    _messageNameFont = 0; //messageNameFont;
+    //if (_nameLabel) {
+    //    _nameLabel.font = _messageNameFont;
+    //}
 }
 
 - (void)setMessageNameColor:(UIColor *)messageNameColor
